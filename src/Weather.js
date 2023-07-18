@@ -66,7 +66,7 @@ export default function Weather() {
             </div>
             <div className="col main-forecast">
               <div className="weather-icon">
-                <img src="" />
+                <img src=""  alt="the current weather" />
               </div>
               <div className="big-temp">
                 <span>20</span>
