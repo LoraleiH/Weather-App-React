@@ -1,0 +1,177 @@
+.Weather a {
+  text-decoration: none;
+  color: #ec6e4b;
+}
+
+.Weather a:hover {
+  color: #ae3817;
+}
+
+.Weather body {
+  font-family: "Roboto", sans-serif;
+}
+
+.Weather form {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather h1 {
+  margin-left: 40px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-size: 40px;
+  padding: 0;
+}
+
+.Weather hr {
+  margin: 0;
+}
+
+.Weather img {
+  margin: 0 auto;
+  display: block;
+}
+
+.Weather li.description {
+  text-transform: capitalize;
+}
+
+.Weather ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.Weather .active {
+  text-decoration: none;
+  color: black;
+  cursor: default;
+}
+
+.Weather .active:hover {
+  text-decoration: none;
+  color: black;
+  cursor: default;
+}
+
+.Weather .big-temp {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.Weather .btn {
+  margin: 0;
+}
+
+.Weather .btn-secondary {
+  width: 100%;
+}
+
+.Weather .btn-warning {
+  width: 100%;
+  background: #ec6e4b;
+  border: #ec6e4b;
+  color: #fff;
+}
+
+.Weather .btn-warning:focus {
+  background: #ec6e4b;
+  color: #fff;
+}
+
+.Weather .btn-warning:hover {
+  background: #ae3817;
+  color: #fff;
+}
+
+.Weather .card {
+  max-width: 600px;
+  margin: 0 auto;
+  top: 20px;
+}
+
+.Weather .city-search {
+  display: block;
+  margin: 0 auto;
+}
+
+.Weather .col.main-forecast {
+  margin-top: 0px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.Weather .col-2 {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.Weather .col-3 {
+  margin: 0 auto;
+  padding: 0;
+}
+.Weather .col-6 {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.Weather .col-auto {
+  margin-right: 5px;
+  padding: 0px;
+}
+
+.Weather .credit {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 10px;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
+
+.Weather .forecast-col {
+  display: inline;
+  text-align: center;
+  margin: 0;
+}
+
+.Weather .forecast-details {
+  position: relative;
+  top: 25px;
+}
+
+.Weather .forecast-icon {
+  width: 50px;
+}
+
+.Weather .forecast-week {
+  text-align: center;
+  padding: 10px;
+}
+
+.Weather .low {
+  color: #808080;
+}
+
+.Weather .row.search-bar {
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.Weather .search-field {
+  display: inline;
+}
+
+.Weather .search-form {
+  padding: 10px;
+  margin: 0;
+}
+
+.Weather .weather-icon {
+  margin: 0 auto;
+}
