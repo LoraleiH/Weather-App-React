@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./weather.css";
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 
 export default function Weather(props) {
   let [weatherData, setWeatherData] = useState({ready: false});
@@ -81,30 +82,17 @@ setCity(event.target.value);
             <WeatherInfo data={weatherData} />
 
             <hr />
+            <WeatherForecast />
 
-            <div className="forecast-week">
-              <div class="col" id="forecast-col">
-                <div class="forecast-day">Monday</div>
-                <img
-                  class="forecast-icon"
-                  src="http://openweathermap.org/img/wn/01n@2x.png"
-                  alt="description"
-                />
-
-                <div>
-                  <span class="high">19°</span> <span class="low">9°</span>
-                </div>
-              </div>
-            </div>
           </div>
-        </div>
-        <br />
+          <br />
 
-        <div class="credit">
-          <a href="https://github.com/LoraleiH/Weather-App-React">
-            Open Source Code
-          </a>{" "}
-          by Loralei Heathcote
+          <div class="credit">
+            <a href="https://github.com/LoraleiH/Weather-App-React">
+              Open Source Code
+            </a>{" "}
+            by Loralei Heathcote
+          </div>
         </div>
       </div>
     );
