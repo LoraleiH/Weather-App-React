@@ -1,4 +1,5 @@
 import FormattedDate from "./FormattedDate";
+import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherInfo(props) {
 
@@ -29,11 +30,7 @@ return (
           <img src={props.data.icon} alt={props.data.description} />
         </div>
         <div className="big-temp">
-          <span>{Math.round(props.data.temperature)}</span>
-          <a href="/" className="active">
-            °C
-          </a>{" "}
-          |<a href="/">°F</a>
+          <WeatherTemperature celsiusTemp={props.data.temperature} />
         </div>
       </div>{" "}
     </div>
