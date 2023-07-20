@@ -12,6 +12,7 @@ export default function Weather(props) {
   function assignValues(response) {
   setWeatherData ({
     ready: true,
+    coords: response.data.coord,
     city: response.data.name,
     date: new Date(response.data.dt *1000),
     temperature: response.data.main.temp,
@@ -82,12 +83,12 @@ setCity(event.target.value);
             <WeatherInfo data={weatherData} />
 
             <hr />
-            <WeatherForecast />
+            <WeatherForecast coords={weatherData.coords}/>
 
           </div>
           <br />
 
-          <div class="credit">
+          <div className="credit">
             <a href="https://github.com/LoraleiH/Weather-App-React">
               Open Source Code
             </a>{" "}
