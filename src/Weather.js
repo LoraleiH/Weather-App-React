@@ -52,7 +52,7 @@ setCity(event.target.value);
             <div className="search-form">
               <form onSubmit={handleSubmit}>
                 <div className="row search-bar">
-                  <div className="col-6">
+                  <div className="col-8">
                     <input
                       type="search"
                       className="form-control"
@@ -61,19 +61,11 @@ setCity(event.target.value);
                     />
                   </div>
 
-                  <div className="col-2">
-                    <input
-                      type="submit"
-                      className="btn btn-secondary"
-                      value="Search"
-                    />
-                  </div>
-
-                  <div className="col-3">
+                  <div className="col-4">
                     <input
                       type="submit"
                       className="btn btn-warning"
-                      value="Current Location"
+                      value="Search"
                     />
                   </div>
                 </div>
